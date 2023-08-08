@@ -20,7 +20,7 @@ To use this project, you'll need:
 
 - Python 3.x installed on your system.
 
- ###Usage
+ ### Usage
  Open the file_deleter.py script in a text editor or IDE of your choice.
 
 Modify the DRIVE_PATH variable to specify the drive path where you want to delete files. For example:
@@ -28,7 +28,7 @@ DRIVE_PATH = 'C:/Users/YourUsername/Documents'
 TARGET_EXTENSIONS = ['.psd', '.txt']
 python file_deleter.py
 
-###Configuration
+### Configuration
 
 You can further customize the script behavior by modifying the following variables in file_deleter.py:
 
@@ -36,7 +36,7 @@ DRIVE_PATH: The path of the drive where files will be deleted from.
 TARGET_EXTENSIONS: List of file extensions to be targeted for deletion.
 CONFIRM_DELETION: If True, the script will prompt for confirmation before deleting each file.
 
-###License
+### License
 
 This project is licensed under the MIT License, which means you're free to modify and distribute the code as long as you include the original license in your distribution. However, please note that this project comes with no warranties or guarantees. Use it at your own risk
 
